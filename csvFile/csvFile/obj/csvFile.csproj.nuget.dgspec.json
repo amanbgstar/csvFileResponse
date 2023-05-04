@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP\\Desktop\\MixedAssHome\\csvFile\\csvFile\\csvFile.csproj": {}
+    "C:\\Users\\HP\\Desktop\\Dot Net\\csvFileResponse\\csvFile\\csvFile\\csvFile.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP\\Desktop\\MixedAssHome\\csvFile\\csvFile\\csvFile.csproj": {
+    "C:\\Users\\HP\\Desktop\\Dot Net\\csvFileResponse\\csvFile\\csvFile\\csvFile.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\Desktop\\MixedAssHome\\csvFile\\csvFile\\csvFile.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\Desktop\\Dot Net\\csvFileResponse\\csvFile\\csvFile\\csvFile.csproj",
         "projectName": "csvFile",
-        "projectPath": "C:\\Users\\HP\\Desktop\\MixedAssHome\\csvFile\\csvFile\\csvFile.csproj",
+        "projectPath": "C:\\Users\\HP\\Desktop\\Dot Net\\csvFileResponse\\csvFile\\csvFile\\csvFile.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\Desktop\\MixedAssHome\\csvFile\\csvFile\\obj\\",
+        "outputPath": "C:\\Users\\HP\\Desktop\\Dot Net\\csvFileResponse\\csvFile\\csvFile\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
