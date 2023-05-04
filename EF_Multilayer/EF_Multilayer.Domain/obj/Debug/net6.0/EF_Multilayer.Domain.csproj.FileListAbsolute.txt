@@ -1,0 +1,28 @@
+C:\Users\vijaypandey\source\repos\EF_Multilayer\EF_Multilayer.Domain\bin\Debug\net6.0\EF_Multilayer.Domain.deps.json
+C:\Users\vijaypandey\source\repos\EF_Multilayer\EF_Multilayer.Domain\bin\Debug\net6.0\EF_Multilayer.Domain.runtimeconfig.json
+C:\Users\vijaypandey\source\repos\EF_Multilayer\EF_Multilayer.Domain\bin\Debug\net6.0\EF_Multilayer.Domain.dll
+C:\Users\vijaypandey\source\repos\EF_Multilayer\EF_Multilayer.Domain\bin\Debug\net6.0\EF_Multilayer.Domain.pdb
+C:\Users\vijaypandey\source\repos\EF_Multilayer\EF_Multilayer.Domain\obj\Debug\net6.0\EF_Multilayer.Domain.csproj.AssemblyReference.cache
+C:\Users\vijaypandey\source\repos\EF_Multilayer\EF_Multilayer.Domain\obj\Debug\net6.0\EF_Multilayer.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vijaypandey\source\repos\EF_Multilayer\EF_Multilayer.Domain\obj\Debug\net6.0\EF_Multilayer.Domain.AssemblyInfoInputs.cache
+C:\Users\vijaypandey\source\repos\EF_Multilayer\EF_Multilayer.Domain\obj\Debug\net6.0\EF_Multilayer.Domain.AssemblyInfo.cs
+C:\Users\vijaypandey\source\repos\EF_Multilayer\EF_Multilayer.Domain\obj\Debug\net6.0\EF_Multilayer.Domain.csproj.CoreCompileInputs.cache
+C:\Users\vijaypandey\source\repos\EF_Multilayer\EF_Multilayer.Domain\obj\Debug\net6.0\EF_Multilayer.Domain.dll
+C:\Users\vijaypandey\source\repos\EF_Multilayer\EF_Multilayer.Domain\obj\Debug\net6.0\refint\EF_Multilayer.Domain.dll
+C:\Users\vijaypandey\source\repos\EF_Multilayer\EF_Multilayer.Domain\obj\Debug\net6.0\EF_Multilayer.Domain.pdb
+C:\Users\vijaypandey\source\repos\EF_Multilayer\EF_Multilayer.Domain\obj\Debug\net6.0\EF_Multilayer.Domain.genruntimeconfig.cache
+C:\Users\vijaypandey\source\repos\EF_Multilayer\EF_Multilayer.Domain\obj\Debug\net6.0\ref\EF_Multilayer.Domain.dll
+C:\Users\HP\Downloads\Ashish Sir DotNet\EF_Multilayer\EF_Multilayer.Domain\bin\Debug\net6.0\EF_Multilayer.Domain.deps.json
+C:\Users\HP\Downloads\Ashish Sir DotNet\EF_Multilayer\EF_Multilayer.Domain\bin\Debug\net6.0\EF_Multilayer.Domain.runtimeconfig.json
+C:\Users\HP\Downloads\Ashish Sir DotNet\EF_Multilayer\EF_Multilayer.Domain\bin\Debug\net6.0\EF_Multilayer.Domain.dll
+C:\Users\HP\Downloads\Ashish Sir DotNet\EF_Multilayer\EF_Multilayer.Domain\bin\Debug\net6.0\EF_Multilayer.Domain.pdb
+C:\Users\HP\Downloads\Ashish Sir DotNet\EF_Multilayer\EF_Multilayer.Domain\obj\Debug\net6.0\EF_Multilayer.Domain.csproj.AssemblyReference.cache
+C:\Users\HP\Downloads\Ashish Sir DotNet\EF_Multilayer\EF_Multilayer.Domain\obj\Debug\net6.0\EF_Multilayer.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Downloads\Ashish Sir DotNet\EF_Multilayer\EF_Multilayer.Domain\obj\Debug\net6.0\EF_Multilayer.Domain.AssemblyInfoInputs.cache
+C:\Users\HP\Downloads\Ashish Sir DotNet\EF_Multilayer\EF_Multilayer.Domain\obj\Debug\net6.0\EF_Multilayer.Domain.AssemblyInfo.cs
+C:\Users\HP\Downloads\Ashish Sir DotNet\EF_Multilayer\EF_Multilayer.Domain\obj\Debug\net6.0\EF_Multilayer.Domain.csproj.CoreCompileInputs.cache
+C:\Users\HP\Downloads\Ashish Sir DotNet\EF_Multilayer\EF_Multilayer.Domain\obj\Debug\net6.0\EF_Multilayer.Domain.dll
+C:\Users\HP\Downloads\Ashish Sir DotNet\EF_Multilayer\EF_Multilayer.Domain\obj\Debug\net6.0\refint\EF_Multilayer.Domain.dll
+C:\Users\HP\Downloads\Ashish Sir DotNet\EF_Multilayer\EF_Multilayer.Domain\obj\Debug\net6.0\EF_Multilayer.Domain.pdb
+C:\Users\HP\Downloads\Ashish Sir DotNet\EF_Multilayer\EF_Multilayer.Domain\obj\Debug\net6.0\EF_Multilayer.Domain.genruntimeconfig.cache
+C:\Users\HP\Downloads\Ashish Sir DotNet\EF_Multilayer\EF_Multilayer.Domain\obj\Debug\net6.0\ref\EF_Multilayer.Domain.dll
