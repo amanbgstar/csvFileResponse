@@ -1,4 +1,6 @@
 ﻿using CsvHelper;
+using DinkToPdf;
+using DinkToPdf.Contracts;
 using EF_Multilayer.Domain.Models;
 using EF_Multilayer.Repository.EmpRepo;
 using EF_Multilayer.Repository.SkillRepo;
@@ -21,13 +23,20 @@ namespace EF_Multilayer.Controllers
         private readonly IEmployeeRepository _empRepo;
         private readonly ISkillRepo _skillRepo;
         private readonly ISystemDetailsRepo _detailsRepo;
+        //private readonly ICommanRepo _commanRepo;
+        private readonly IConverter _pdfConverter;
+
         public EmployeeController(IEmployeeRepository empRepo, 
             ISkillRepo skillRepo,
-            ISystemDetailsRepo detailsRepo)
+            ISystemDetailsRepo detailsRepo,
+            //ICommanRepo commanRepo,
+            IConverter pdfConverter)
         {
             _empRepo=empRepo;
             _skillRepo=skillRepo;
             _detailsRepo=detailsRepo;
+            //_commanRepo = commanRepo;
+            _pdfConverter = pdfConverter;
         }
         
         // GET api/<EmployeeController>/5
@@ -87,7 +96,7 @@ namespace EF_Multilayer.Controllers
 
         }
 
-        [HttpGet]
+        [HttpGet("csv")]
         [Produces("text/csv")]
         public IActionResult GetEmployeesCsv()
         {
@@ -101,6 +110,37 @@ namespace EF_Multilayer.Controllers
 
             var csvBytes = stream.ToArray();
             return File(csvBytes, "text/csv", "Employess.csv");
+        }
+
+        [HttpGet("pdf")]
+        [Produces("application/pdf")]
+        public async Task<IActionResult> GetEmployeesPdf()
+        {
+            var Employees = _empRepo.GetEmployees();
+
+            var html = GenerateHtml(Employees);
+            var pdf = _pdfConverter.Convert(new HtmlToPdfDocument
+            {
+                Objects = { new ObjectSettings { HtmlContent = html } }
+            });
+
+            return File(pdf, "application/pdf", "students.pdf");
+        }
+
+        private string GenerateHtml(List<Employee> Employees)
+        {
+            var html = new StringBuilder();
+            html.AppendLine("<html><body><table>");
+            html.AppendLine("<thead><tr><th>ID</th><th>Name</th><th>Age</th></tr></thead>");
+            html.AppendLine("<tbody>");
+
+            foreach (var employee in Employees)
+            {
+                html.AppendLine($"<tr><td>{employee.Id}</td><td>{employee.Name}</td><td>{employee.Age}</td></tr>");
+            }
+
+            html.AppendLine("</tbody></table></body></html>");
+            return html.ToString();
         }
     }
 }

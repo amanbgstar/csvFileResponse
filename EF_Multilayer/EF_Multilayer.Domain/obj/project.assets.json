@@ -2019,11 +2019,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\Downloads\\Ashish Sir DotNet\\EF_Multilayer\\EF_Multilayer.Domain\\EF_Multilayer.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\HP\\Desktop\\Dot Net\\csvFileResponse\\EF_Multilayer\\EF_Multilayer.Domain\\EF_Multilayer.Domain.csproj",
       "projectName": "EF_Multilayer.Domain",
-      "projectPath": "C:\\Users\\HP\\Downloads\\Ashish Sir DotNet\\EF_Multilayer\\EF_Multilayer.Domain\\EF_Multilayer.Domain.csproj",
+      "projectPath": "C:\\Users\\HP\\Desktop\\Dot Net\\csvFileResponse\\EF_Multilayer\\EF_Multilayer.Domain\\EF_Multilayer.Domain.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\Downloads\\Ashish Sir DotNet\\EF_Multilayer\\EF_Multilayer.Domain\\obj\\",
+      "outputPath": "C:\\Users\\HP\\Desktop\\Dot Net\\csvFileResponse\\EF_Multilayer\\EF_Multilayer.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

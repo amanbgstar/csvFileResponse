@@ -1,3 +1,5 @@
+using DinkToPdf;
+using DinkToPdf.Contracts;
 using EF_Multilayer.Domain.Context;
 using EF_Multilayer.Repository.EmpRepo;
 using EF_Multilayer.Repository.SkillRepo;
@@ -14,8 +16,12 @@ builder.Services.AddDbContext<EmployeeContext>(options =>
 options.
 UseSqlServer(builder.Configuration.GetConnectionString("ConnStr")));
 
+builder.Services.AddSingleton(typeof(IConverter), new SynchronizedConverter(new PdfTools()));
+
+
 builder.Services.AddScoped<IEmployeeRepository, EmployeeRepository>();
 builder.Services.AddScoped<ISystemDetailsRepo, SystemDetailsRepo>();
+//builder.Services.AddScoped<ICommanRepo, CommanRepo>();
 builder.Services.AddScoped<ISkillRepo, SkillRepo>();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
